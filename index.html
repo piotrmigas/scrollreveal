@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Scrollreveal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://unpkg.com/scrollreveal"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
       rel="stylesheet"
@@ -19,9 +18,13 @@
     />
 
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
 
   <body>
+    <script>
+      document.body.className += " fade-out";
+    </script>
     <nav class="navbar navbar-default fixed-top">
       <a class="navbar-brand" href="#">Scrollreveal</a>
       <div class="collapse navbar-collapse">
