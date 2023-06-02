@@ -80,7 +80,7 @@ p {
 }
 
 #contact {
-  background: url(../img/3.png);
+  background: url('../img/3.png');
   padding: 40px;
   color: #fff;
   border-top: #333 7px solid;
