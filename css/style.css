@@ -62,7 +62,7 @@ p {
 
 #testimonial p {
   font-size: 32px;
-  font-family: "Josefin Sans";
+  font-family: 'Josefin Sans';
   color: #000;
 }
 
@@ -85,6 +85,10 @@ p {
   color: #fff;
   border-top: #333 7px solid;
   border-bottom: #333 7px solid;
+}
+
+.form-control {
+  resize: none;
 }
 
 footer {
